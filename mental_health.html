@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mental Health Dashboard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1535A2;
+            color: white;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            padding: 50px 20px;
+        }
+        h1 {
+            font-size: 28px;
+            font-weight: bold;
+        }
+        .list {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
+            margin-top: 20px;
+        }
+        .list-item {
+            background-color: #F4C914;
+            padding: 15px;
+            width: 300px;
+            border-radius: 10px;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+            font-size: 18px;
+            color: #1535A2;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        .list-item:hover {
+            background-color: #e0b713;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Mental Health Dashboard</h1>
+        <div class="list">
+            <div class="list-item" onclick="window.open('exam_pressure.html', '_blank')">Exam Pressure</div>
+            <div class="list-item" onclick="window.open('heavy_workload.html', '_blank')">Heavy Workload</div>
+            <div class="list-item" onclick="window.open('high_expectations.html', '_blank')">High Expectations</div>
+            <div class="list-item" onclick="window.open('time_management.html', '_blank')">Time Management Issues</div>
+            <div class="list-item" onclick="window.open('comparison.html', '_blank')">Comparison with Others</div>
+            <div class="list-item" onclick="window.open('lack_of_interest.html', '_blank')">Lack of Interest</div>
+            <div class="list-item" onclick="window.open('fear_of_future.html', '_blank')">Fear of Future</div>
+            <div class="list-item" onclick="window.open('toxic_friendship.html', '_blank')">Toxic friendship</div>
+            <div class="list-item" onclick="window.open('peer_pressure.html', '_blank')">Peer Pressure</div>
+        </div>
+    </div>
+</body>
+</html>
